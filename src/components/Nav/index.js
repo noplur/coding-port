@@ -2,11 +2,14 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
-    const categories = [
+    const portfolioCategory = [
         {
           name: "portfolio",
           description: "Applications made by Aaron Rosenblatt",
-        },
+        }
+    ];
+
+    const resumeCategory = [
         { name: "resume", description: "A list of Aaron Rosenblatt's proficiencies" },
       ];
 
@@ -26,16 +29,25 @@ function Nav() {
                   About me
                 </a>
               </li>
+              {
+                portfolioCategory.map((portfoliocategory) => (
+                  <li className="mx-1" key={portfoliocategory.name} >
+                    <span onClick={() => { handleClick(); }}>
+                     {capitalizeFirstLetter(portfoliocategory.name)}
+                    </span>
+                  </li>
+                ))
+              }
               <li className={"mx-2"}>
                 <span onClick={() => handleClick()}>
                   Contact
                 </span>
               </li>
               {
-                categories.map((category) => (
-                  <li className="mx-1" key={category.name} >
+                resumeCategory.map((resumecategory) => (
+                  <li className="mx-1" key={resumecategory.name} >
                     <span onClick={() => { handleClick(); }}>
-                     {capitalizeFirstLetter(category.name)}
+                     {capitalizeFirstLetter(resumecategory.name)}
                     </span>
                   </li>
                 ))
