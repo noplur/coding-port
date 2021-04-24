@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 
 function App() {
   const [categories] = useState([
     {
-      name: "portfolio",
+      name: "project",
         description:
           "Images from portfolio projects",
     }
@@ -23,7 +23,7 @@ function App() {
       currentCategory={currentCategory}
       ></Nav>
       <main>
-        <Portfolio currentCategory={currentCategory}></Portfolio>
+        <Project currentCategory={currentCategory}></Project>
         <About></About>
       </main>
       <Footer></Footer>
