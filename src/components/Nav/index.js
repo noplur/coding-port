@@ -6,17 +6,11 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     currentCategory,
+    aboutSelected,
+    setAboutSelected,
     contactSelected,
     setContactSelected
   } = props;
-
-    // const resumeCategory = [
-    //     { name: "resume", description: "A list of Aaron Rosenblatt's proficiencies" },
-    //   ];
-
-      // const handleClick = () => {
-      //   console.log("click handled")
-      // }
     
       return (
         <header className="flex-row px-1">
@@ -25,10 +19,12 @@ function Nav(props) {
           </h2>
           <nav>
             <ul className="flex-row">
-              <li className="mx-2">
-              <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                About me
-            </a>
+            <li className={`mx-2 ${!contactSelected && aboutSelected && 'navActive'}`}>
+            <span onClick={() => {
+                  setAboutSelected(true);
+                  setContactSelected(false);
+                }}
+            >About Me</span>
           </li>
           {categories.map((category) => (
             <li
@@ -59,4 +55,4 @@ function Nav(props) {
   );
 }
     
-    export default Nav;
+export default Nav;
