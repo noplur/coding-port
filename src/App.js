@@ -6,6 +6,7 @@ import Project from './components/Project';
 import ContactForm from './components/Contact';
 
 function App() {
+  
   const [categories] = useState([
     {
       name: "project",
@@ -32,12 +33,14 @@ function App() {
       ></Nav>
       <main>
         {!contactSelected ? (
-          <>
+          
             <About></About>
-            <Project currentCategory={currentCategory}></Project>
-          </>
+         
         ) : (
+          <>
+            <Project currentCategory={currentCategory}></Project>
             <ContactForm></ContactForm>
+          </>
           )}
       </main>
       <Footer></Footer>
