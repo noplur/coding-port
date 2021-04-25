@@ -46,7 +46,8 @@ const ProjectList = ({ category }) => {
 
 const renderCard = (card, index) => {
   return (
-  <Card style={{ width: '18rem' }} key={index}>
+  
+  <Card style={{ width: '18rem' }} key={index} className="box">
           <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
           <Card.Body>
     <Card.Title>{card.name}</Card.Title>
@@ -58,7 +59,7 @@ const renderCard = (card, index) => {
   )
 }
 
-    return <div className="test"> {photos.map(renderCard)}</div>
+    return <div className="grid"> {photos.map(renderCard)}</div>
        
     
 };
