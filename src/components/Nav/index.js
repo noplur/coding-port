@@ -20,27 +20,30 @@ function Nav(props) {
           </h2>
           <nav>
             <ul className="flex-row">
-            <li className={`mx-2 ${!contactSelected && aboutSelected && 'navActive'}`}>
+            <li className="mx-2">
             <span onClick={() => {
-                  setAboutSelected(true);
-                  setContactSelected(false);
+                setCurrentCategory(categories[0])
                 }}
             >About Me</span>
           </li>
-          <li className={`mx-2 ${contactSelected && aboutSelected && 'navActive'}`}>
+          <li className="mx-2">
             <span onClick={() => {
-              setContactSelected(false);
-              setAboutSelected(false);
+              setCurrentCategory(categories[1])
             }}>Portfolio</span>
           </li>
-          <li className={`mx-2 ${contactSelected && aboutSelected && 'navActive'}`}>
+          <li className="mx-2">
             <span onClick={() => {
-              setContactSelected(true);
-              setAboutSelected(false);
+              setCurrentCategory(categories[2])
             }}>Contact</span>
           </li>
           <li className="mx-2">
-            <span>Resume</span>
+            <span onClick={() => (
+            setCurrentCategory(categories[3])
+            ) }>
+
+              Resume
+            </span>
+      
           </li>
         </ul>
       </nav>

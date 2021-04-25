@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -8,18 +8,44 @@ import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
-  
+  const [currentCategoryTwo, setCurrentCategoryTwo] = useState({
+    name: "projects",
+        description:
+          "Work by Aaron",
+  });
   const [categories] = useState([
     {
-      name: "project",
+      name: "about",
         description:
-          "Images from portfolio projects",
+          "Information about Aaron",
+        component: <About/>
+    },
+    {
+      name: "projects",
+        description:
+          "Work by Aaron",
+        component: <Project currentCategory={currentCategoryTwo}></Project>
+    },
+    {
+      name: "contact",
+        description:
+          "Contact Aaron",
+        component: <ContactForm></ContactForm>
+    },
+    {
+      name: "resume",
+        description:
+          "Aaron's Resume",
+        component: <Resume></Resume>
     }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [aboutSelected, setAboutSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
+  // useEffect(()=>{
+  //   setCurrentCategoryTwo(currentCategory)
+  // },[])
 
 
   return (
@@ -34,17 +60,11 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
-          
-            <About></About>
-         
-        ) : (
+        
           <>
-            <Project currentCategory={currentCategory}></Project>
-            <ContactForm></ContactForm>
-            <Resume></Resume>
+            {currentCategory.component}
           </>
-          )}
+
       </main>
       <Footer></Footer>
     </div>
