@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const ProjectList = ({ category }) => {
 
 const [photos] = useState([
