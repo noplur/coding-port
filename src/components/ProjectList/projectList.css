@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
 .csstest:hover {
     background-color: white;
     opacity: 0.75;
@@ -30,4 +35,56 @@
 }
 .grid > div {
     flex-basis: calc(50% - 40px)
+}
+.projectlink {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-display: bold;
+    font-size: 32px;
+    list-style: none;
+    text-shadow: none;
+}
+.projectlink:hover {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-display: bold;
+    font-size: 32px;
+    text-shadow: none;
+    list-style: none;
+}
+.projectdescription{
+    margin-left: 5%;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-display: bold;
+    font-size: 24px;
+    text-shadow: none;
+    list-style: none;
+}
+.githubcard {
+    margin-left: 15%;
+    font-size: 38px;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    text-shadow: none;
+}
+.githubcard:hover {
+    margin-left: 15%;
+    font-size: 38px;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    text-shadow: none;
+}
+a:hover {
+    margin-left: 5%;
+    text-decoration: none;
 }

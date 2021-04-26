@@ -9,9 +9,9 @@ import Resume from './components/Resume';
 
 function App() {
   const [currentCategoryTwo, setCurrentCategoryTwo] = useState({
-    name: "projects",
+    name: "portfolio",
         description:
-          "Work by Aaron",
+          "",
   });
   const [categories] = useState([
     {

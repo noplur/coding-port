@@ -25,7 +25,7 @@ const ProjectList = ({ category }) => {
     },
     {
         image: require(`../../assets/images/project/2.jpg`).default,
-        name: 'Re-Markable High-Tek Blog',
+        name: 'High-Tek Blog',
         category: 'project',
         description: 'MVC/Handlebars.js/Express-Session',
         projectlink: 'https://rosenblatt-hi-tek-blog.herokuapp.com/',
@@ -35,7 +35,7 @@ const ProjectList = ({ category }) => {
         image: require(`../../assets/images/project/3.jpg`).default,
         name: 'Weather Dashboard',
         category: 'project',
-        description: 'JavaScript/jQuery/Bootstrap/Moment.js/HTML/CSS',
+        description: 'JavaScript/jQuery/Bootstrap',
         projectlink: 'https://noplur.github.io/weather-dashboard/',
         githublink: 'https://github.com/noplur/weather-dashboard'
     },
@@ -65,11 +65,11 @@ const renderCard = (card, index) => {
           <Card.ImgOverlay className="csstest">
             <div className="links">
     <a href={card.projectlink} target="_blank">
-    <Card.Title>{card.name}</Card.Title></a>
+    <Card.Title className="projectlink">{card.name}</Card.Title></a>
       <a href={card.githublink} target="_blank"><Card.Text>
-      <i class="fab fa-github"></i>
+      <i class="fab fa-github githubcard"></i>
       </Card.Text></a>
-      <Card.Text>
+      <Card.Text className="projectdescription">
       {card.description}
     </Card.Text>
         </div>

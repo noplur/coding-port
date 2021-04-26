@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+  .portfolio {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-display: bold;
+    font-size: 38px;
+    color: var(--secondary-color);
+    margin-left: 5%;
+    margin-top: 2%;
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
+}
