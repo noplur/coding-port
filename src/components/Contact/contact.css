@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+.contactme{
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-display: bold;
+    font-size: 38px;
+    color: var(--secondary-color);
+    margin-left: 12%;
+    margin-top: 2%;
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
+}
+.contact-form {
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.name {
+    margin-bottom: 2%;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+    font-display: bold;
+    font-size: 28px;
+}
+.text-name {
+    margin-bottom: 2%;
+    margin-left: 3%;
+    font-size: 24px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color);
+}
+.email {
+    margin-bottom: 2%;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+    font-display: bold;
+    font-size: 30px;
+}
+.text-email {
+    margin-bottom: 2%;
+    margin-left: 3%;
+    font-size: 24px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color);
+}
+.message {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+    font-display: bold;
+    font-size: 24px;
+}
+.text-message {
+    vertical-align: text-top;
+    margin-left: 1%;
+    font-size: 24px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color);
+}
+.error-text {
+    margin-top: 2%;
+    font-size: 24px;
+    color: rgba(255, 255, 0, 0.7);
+}
+.submit-button {
+    margin-top: 1%;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    font-size: 24px;
+    border-color: var(--secondary-color);
+    border-radius: 5px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+}
+.submit-button:hover {
+    margin-top: 1%;
+    background-color: rgba(255, 255, 0, 0.7);
+    color: var(--primary-color);
+    font-size: 24px;
+    border-color: var(--secondary-color);
+    border-radius: 5px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+}

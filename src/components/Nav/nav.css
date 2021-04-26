@@ -13,6 +13,7 @@
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+    height: 150px;
 }
 .aaron {
     font-family: Geneva, Helvetica, Arial, sans-serif;

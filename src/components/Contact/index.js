@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./contact.css"
 
 function ContactForm() {
 
@@ -37,26 +39,26 @@ function ContactForm() {
 
 return (
     <section>
-        <h1>Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <h1 className="contactme">Contact me</h1>
+        <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
         <div>
-            <label htmlFor="name">Name:</label>
-            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+            <label htmlFor="name" className="name">Name:</label>
+            <input type="text" name="name" className="text-name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-            <label htmlFor="email">Email address:</label>
-            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+            <label htmlFor="email" className="email">Email:</label>
+            <input type="email" name="email" className="text-email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+            <label htmlFor="message" className="message">Message:</label>
+            <textarea name="message" className="text-message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
             <div>
                 <p className="error-text">{errorMessage}</p>
             </div>
             )}
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-button">Submit</button>
         </form>
     </section>
     );
