@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+
+  .resume {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-display: bold;
+    font-size: 38px;
+    color: var(--secondary-color);
+    margin-left: 12%;
+    margin-top: 2%;
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
+}
+.download {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+    font-size: 28px;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.resume-link {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: -1%;
+    color: var(--tertiary-color);
+}
+.resume-link:hover {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: -1%;
+    color: var(--tertiary-color);
+    list-style-type: none;
+}
+.frontend {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color:  rgba(255, 255, 0, 0.7);
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 24px;
+}
+.backend {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color:  rgba(255, 255, 0, 0.7);
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 24px;
+}
+.list-skill {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+    margin-left: 14%;
+    margin-top: 2%;
+    font-size: 18px;
+}

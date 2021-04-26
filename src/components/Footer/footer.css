@@ -9,7 +9,6 @@
     list-style-type: none;
     padding: 20px 30px;
     padding-left: 40%;
-    height: 100%;
 
 }
 .footerlink {
@@ -26,14 +25,29 @@
     font-size: 40px;
     text-decoration: none;
     color: rgba(255, 255, 0, 0.7);
-    cursor: pointer;
+    
 }
 .icon:hover{
     font-size: 40px;
     text-decoration: none;
     color: var(--tertiary-color);
-    cursor: pointer;
+    transform-origin: center;
+    list-style-type: none;
+    
 }
 body {
     background-color: var(--primary-color);
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: transparent;
+    list-style-type: none;
+}
+a:hover {
+    text-decoration: none;
+    padding: 20px;
+    background-color: transparent;
+    transform-origin: center;
+    list-style-type: none;
 }

@@ -65,12 +65,13 @@ const renderCard = (card, index) => {
           <Card.ImgOverlay className="csstest">
             <div className="links">
     <a href={card.projectlink} target="_blank">
-    <Card.Title className="projectlink">{card.name}</Card.Title></a>
+    <Card.Title><div className="projectlink">{card.name}</div></Card.Title></a>
       <a href={card.githublink} target="_blank"><Card.Text>
-      <i class="fab fa-github githubcard"></i>
+        <div className="githubcard">
+      <i class="fab fa-github"></i></div>
       </Card.Text></a>
-      <Card.Text className="projectdescription">
-      {card.description}
+      <Card.Text><div className="projectdescription">
+      {card.description}</div>
     </Card.Text>
         </div>
     </Card.ImgOverlay>
