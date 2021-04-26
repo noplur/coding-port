@@ -11,49 +11,49 @@ const ProjectList = ({ category }) => {
         image: require(`../../assets/images/project/0.jpg`).default,
         name: 'Bart Community',
         category: 'project',
-        description: 'A social page for BART users',
+        description: 'Express-Handlebars',
         projectlink: 'https://bort-community.herokuapp.com/',
         githublink: 'https://github.com/noplur/Bort-Community'
     },
     {
         image: require(`../../assets/images/project/1.jpg`).default,
-        name: 'Musak',
+        name: 'Musicana',
         category: 'project',
-        description: 'A social page for music',
-        projectlink: 'https://bort-community.herokuapp.com/',
-        githublink: 'https://github.com/noplur/Bort-Community'
+        description: 'JavaScript/jQuery/Foundation',
+        projectlink: 'https://noplur.github.io/team4-10-music/',
+        githublink: 'https://github.com/noplur/team4-10-music'
     },
     {
         image: require(`../../assets/images/project/2.jpg`).default,
         name: 'Re-Markable High-Tek Blog',
         category: 'project',
-        description: 'A high-tech blog',
-        projectlink: 'https://bort-community.herokuapp.com/',
-        githublink: 'https://github.com/noplur/Bort-Community'
+        description: 'MVC/Handlebars.js/Express-Session',
+        projectlink: 'https://rosenblatt-hi-tek-blog.herokuapp.com/',
+        githublink: 'https://github.com/noplur/re-markable-high-tech-blog'
     },
     {
         image: require(`../../assets/images/project/3.jpg`).default,
-        name: 'Weather App',
+        name: 'Weather Dashboard',
         category: 'project',
-        description: 'A weather app',
-        projectlink: 'https://bort-community.herokuapp.com/',
-        githublink: 'https://github.com/noplur/Bort-Community'
+        description: 'JavaScript/jQuery/Bootstrap/Moment.js/HTML/CSS',
+        projectlink: 'https://noplur.github.io/weather-dashboard/',
+        githublink: 'https://github.com/noplur/weather-dashboard'
     },
     {
         image: require(`../../assets/images/project/4.jpg`).default,
-        name: 'On-Point Note Taker',
+        name: 'On-Point Note Taking',
         category: 'project',
-        description: 'A note-taking app',
-        projectlink: 'https://bort-community.herokuapp.com/',
-        githublink: 'https://github.com/noplur/Bort-Community'
+        description: 'Express.js',
+        projectlink: 'https://rosenblatt-onpoint-notetaking.herokuapp.com/',
+        githublink: 'https://github.com/noplur/onPoint-Note-Taking'
     },
     {
         image: require(`../../assets/images/project/5.jpg`).default,
         name: 'Code Quiz',
         category: 'project',
-        description: 'A quiz on coding',
-        projectlink: 'https://bort-community.herokuapp.com/',
-        githublink: 'https://github.com/noplur/Bort-Community'
+        description: 'JS, CSS, HTML',
+        projectlink: 'https://noplur.github.io/code-quiz2/',
+        githublink: 'https://github.com/noplur/code-quiz2'
     }
 ]);
 
