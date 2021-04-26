@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from "react-bootstrap";
-import {Container} from "react-bootstrap";
-import {Row} from "react-bootstrap";
-import {Col} from "react-bootstrap";
 import "./projectList.css"
 
 
@@ -63,22 +60,21 @@ const ProjectList = ({ category }) => {
 const renderCard = (card, index) => {
   return (
   
-    <Card style={{ width: '18rem' }} key={index} className="box csstest">
-          <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
-          <Card.Body>
-    <Card.Title>{card.name}</Card.Title>
-    <Card.Text>
+    <Card style={{ width: '18rem' }} key={index} className="box">
+          <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
+          <Card.ImgOverlay className="csstest">
+            <div className="links">
+    <a href={card.projectlink} target="_blank">
+    <Card.Title>{card.name}</Card.Title></a>
+      <a href={card.githublink} target="_blank"><Card.Text>
+      <i class="fab fa-github"></i>
+      </Card.Text></a>
+      <Card.Text>
       {card.description}
     </Card.Text>
-      <a href={card.githublink} target="_blank" className="githublink"><Card.Text>
-        {card.name} on GitHub
-        </Card.Text></a>
-      <a href={card.projectlink} target="_blank"><Card.Text>
-        {card.name} Live Site
-        </Card.Text></a>
-    </Card.Body>
+        </div>
+    </Card.ImgOverlay>
     </Card>
-  
   )
 }
 
@@ -86,56 +82,5 @@ const renderCard = (card, index) => {
     
     
 };
-
-// const [photos] = useState([
-//     {
-//         name: 'Bart Community',
-//         category: 'project',
-//         description: 'A social page for BART users',
-//     },
-//     {
-//         name: 'Musak',
-//         category: 'project',
-//         description: 'A social page for music',
-//     },
-//     {
-//         name: 'Re-Markable High-Tek Blog',
-//         category: 'project',
-//         description: 'A high-tech blog',
-//     },
-//     {
-//         name: 'Weather App',
-//         category: 'project',
-//         description: 'A weather app',
-//     },
-//     {
-//         name: 'On-Point Note Taker',
-//         category: 'project',
-//         description: 'A note-taking app',
-//     },
-//     {
-//         name: 'Code Quiz',
-//         category: 'project',
-//         description: 'A quiz on coding',
-//     }
-// ]);
-
-//     return (
-//         <div>
-//           <div className="test">
-          
-//             {photos.map((image, i) => (
-//               <img
-//                 src={require(`../../assets/images/project/${i}.jpg`).default}
-//                 alt={image.name}
-//                 className="card-img-top"
-//                 key={image.name}
-//               />
-//             ))}
-            
-//           </div>
-//         </div>
-//       );
-// };
 
 export default ProjectList;

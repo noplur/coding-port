@@ -1,14 +1,12 @@
 import React from 'react';
-import {Document, Page} from 'react-pdf';
-// import pdf from "../../assets/images/resume/rosenblatt_resume.pdf"
+import pdf from "../../assets/images/resume/resume_rosenblatt.pdf"
 
 function Resume() {
     return (
         <section>
                 <h1 id="resume">Resume</h1>
-                <embed src="../../assets/images/resume/resume_rosenblatt.pdf" type="application/pdf" width="100%" height="100%"></embed>
                 <h2>
-                {/* Download my <Document file={require("../../assets/images/resume/rosenblatt_resume.pdf").default} type="application/pdf" target="_blank">resume</Document> */}
+                Download my <a href = {pdf} target = "_blank">Resume</a>
                 </h2>
                 <h3>Front-end Skills</h3>
                     <p1>HTML</p1><br />

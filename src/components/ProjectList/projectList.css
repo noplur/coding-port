@@ -1,17 +1,18 @@
 .csstest:hover {
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.75;
     text-decoration: none;
+    transition: all .7s ease-in-out;
   }
-.githublink {
-    display:none
+.links {
+    opacity: 0;
 }
-.githublink:hover {
-    display: block;
+.links:hover {
+    opacity: 1;
 }
 .box {
     overflow: hidden;
-    height: 400px;
+    height: 270px;
     margin-bottom: 20px;
     margin-left: 20px;
     -webkit-box-shadow: 0px 12px 18px -6px rgba (0,0,0,0.3);
@@ -30,5 +31,3 @@
 .grid > div {
     flex-basis: calc(50% - 40px)
 }
-    /* transition: all .2s ease-in-out;
-} */
