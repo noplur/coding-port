@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+
+.hero {
+    background-image: url("../../assets/images/nav/ggbridge.jpg");
+    padding: 20px 30px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+.aaron {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-display: bold;
+    font-size: 38px;
+    color: var(--primary-color);
+    margin: 0;
+    display: inline;
+    text-shadow: 0 0 13px rgba(255, 255, 0, 0.7);
+}
+.navlinks{
+    float: right;
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.titles {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
+    list-style-type: none;
+    margin: 0 30px;
+}
+.titles:hover {
+    text-decoration: none;
+    color:  rgba(255, 255, 0, 0.7);
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
+    list-style-type: none;
+    cursor: pointer;
+}
+.titles:focus {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
+    list-style-type: none;
+  }

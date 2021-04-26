@@ -1,42 +1,40 @@
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./nav.css"
+
 
 function Nav(props) {
-  
+
   const {
     categories = [],
     setCurrentCategory,
-    currentCategory,
-    aboutSelected,
-    setAboutSelected,
-    contactSelected,
-    setContactSelected
+    contactSelected
   } = props;
     
       return (
         <header className="flex-row px-1">
-          <h2>
+           <nav className="hero">
+          <h2 className="aaron">
             Aaron Rosenblatt
           </h2>
-          <nav>
-            <ul className="flex-row">
-            <li className="mx-2">
+            <ul className="navlinks">
+            <li className="titles navActive" tabindex="0">
             <span onClick={() => {
                 setCurrentCategory(categories[0])
                 }}
             >About Me</span>
           </li>
-          <li className="mx-2">
+          <li className="titles navActive" tabindex="0">
             <span onClick={() => {
               setCurrentCategory(categories[1])
             }}>Portfolio</span>
           </li>
-          <li className="mx-2">
+          <li className="titles navActive" tabindex="0">
             <span onClick={() => {
               setCurrentCategory(categories[2])
             }}>Contact</span>
           </li>
-          <li className="mx-2">
+          <li className="titles navActive" tabindex="0">
             <span onClick={() => (
             setCurrentCategory(categories[3])
             ) }>
@@ -46,7 +44,7 @@ function Nav(props) {
       
           </li>
         </ul>
-      </nav>
+        </nav>
     </header>
   );
 }
