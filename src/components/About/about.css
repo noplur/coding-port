@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+  .about {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-display: bold;
+    font-size: 38px;
+    color: var(--secondary-color);
+    margin-left: 12%;
+    margin-top: 2%;
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
+}
+.aboutimg {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.abouttext {
+    color: var(--secondary-color);
+    width: 50%;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -25%;
+    margin-left: 35%;
+    height: 350px;
+}
