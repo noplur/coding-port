@@ -1,5 +1,6 @@
 {
-  "name": "http://noplur.github.io/coding-port",
+  "homepage": "http://noplur.github.io/coding-port",
+  "name": "coding-port",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
