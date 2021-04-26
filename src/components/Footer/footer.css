@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #808080;
+  }
+
+.footer {
+    background-color: #000000;
+    list-style-type: none;
+    padding: 20px 30px;
+    padding-left: 40%;
+    height: 100%;
+
+}
+.footerlink {
+    display: inline;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    float: none;
+    margin: 0 30px;
+    justify-content: center;
+   
+}
+.icon{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.7);
+    cursor: pointer;
+}
+.icon:hover{
+    font-size: 40px;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+body {
+    background-color: var(--primary-color);
+}
