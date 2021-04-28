@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./footer.css"
+import "./footer.css";
 
 function Footer() {
     return (
         <footer>
-            <nav>
+            <section>
             <ul className="footer">
               <li className="footerlink">
                 <a href="https://github.com/noplur" target="_blank" className="icon">
@@ -14,16 +14,16 @@ function Footer() {
             </li>
             <li className="footerlink">
                 <a href="https://www.linkedin.com/in/aaron-rosenblatt-5b734a1bb/" target="_blank" className="icon">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
             </li>
             <li className="footerlink">
                 <a href="https://twitter.com/aaronpix" target="_blank" className="icon">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
+                    <i className="fab fa-twitter-square"></i>
+                    </a>
             </li>
             </ul>
-            </nav>
+            </section>
         </footer>
     );
 }

@@ -73,6 +73,5 @@
     color: var(--tertiary-color);
 }
 a:hover {
-    margin-left: 5%;
     text-decoration: none;
 }

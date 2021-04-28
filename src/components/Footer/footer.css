@@ -21,10 +21,28 @@
     justify-content: center;
    
 }
+a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: transparent;
+    transform-origin: center;
+    list-style-type: none;
+}
+a:hover {
+    text-decoration: none;
+    padding: 20px;
+    background-color: transparent;
+    transform-origin: center;
+    list-style-type: none;
+}
 .icon{
     font-size: 40px;
     text-decoration: none;
     color: rgba(255, 255, 0, 0.7);
+    transform-origin: center;
+    list-style-type: none;
+    cursor: pointer;
+    
     
 }
 .icon:hover{
@@ -34,20 +52,9 @@
     transform-origin: center;
     list-style-type: none;
     
+    
+    
 }
 body {
     background-color: var(--primary-color);
-}
-a {
-    text-decoration: none;
-    padding: 20px;
-    background-color: transparent;
-    list-style-type: none;
-}
-a:hover {
-    text-decoration: none;
-    padding: 20px;
-    background-color: transparent;
-    transform-origin: center;
-    list-style-type: none;
 }
