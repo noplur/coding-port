@@ -8,7 +8,15 @@ const ProjectList = ({ category }) => {
 
   const [photos] = useState([
     {
-        image: require(`../../assets/images/project/0.jpg`).default,
+      image: require(`../../assets/images/project/0.jpg`).default,
+      name: 'Kathryn Hansen Art Portfolio',
+      category: 'project',
+      description: 'GraphQL, React, MongoDB',
+      projectlink: 'https://kathryn-hansen.herokuapp.com/',
+      githublink: 'https://github.com/noplur/kathryn-hansen'
+  },
+    {
+        image: require(`../../assets/images/project/1.jpg`).default,
         name: 'Bart Community',
         category: 'project',
         description: 'Express-Handlebars',
@@ -16,7 +24,7 @@ const ProjectList = ({ category }) => {
         githublink: 'https://github.com/noplur/Bort-Community'
     },
     {
-        image: require(`../../assets/images/project/1.jpg`).default,
+        image: require(`../../assets/images/project/2.jpg`).default,
         name: 'Musicana',
         category: 'project',
         description: 'JavaScript/jQuery/Foundation',
@@ -24,7 +32,7 @@ const ProjectList = ({ category }) => {
         githublink: 'https://github.com/noplur/team4-10-music'
     },
     {
-        image: require(`../../assets/images/project/2.jpg`).default,
+        image: require(`../../assets/images/project/3.jpg`).default,
         name: 'High-Tek Blog',
         category: 'project',
         description: 'MVC/Handlebars.js/Express-Session',
@@ -32,7 +40,7 @@ const ProjectList = ({ category }) => {
         githublink: 'https://github.com/noplur/re-markable-high-tech-blog'
     },
     {
-        image: require(`../../assets/images/project/3.jpg`).default,
+        image: require(`../../assets/images/project/4.jpg`).default,
         name: 'Weather Dashboard',
         category: 'project',
         description: 'JavaScript/jQuery/Bootstrap',
@@ -40,20 +48,12 @@ const ProjectList = ({ category }) => {
         githublink: 'https://github.com/noplur/weather-dashboard'
     },
     {
-        image: require(`../../assets/images/project/4.jpg`).default,
+        image: require(`../../assets/images/project/5.jpg`).default,
         name: 'On-Point Note Taking',
         category: 'project',
         description: 'Express.js',
         projectlink: 'https://rosenblatt-onpoint-notetaking.herokuapp.com/',
         githublink: 'https://github.com/noplur/onPoint-Note-Taking'
-    },
-    {
-        image: require(`../../assets/images/project/5.jpg`).default,
-        name: 'Code Quiz',
-        category: 'project',
-        description: 'JS, CSS, HTML',
-        projectlink: 'https://noplur.github.io/code-quiz2/',
-        githublink: 'https://github.com/noplur/code-quiz2'
     }
 ]);
 
