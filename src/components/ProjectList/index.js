@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from "react-bootstrap";
 import "./projectList.css"
 
-
 const ProjectList = ({ category }) => {
 
   const [photos] = useState([
@@ -83,5 +82,5 @@ const renderCard = (card, index) => {
     
     
 };
-
+//test
 export default ProjectList;
