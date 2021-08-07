@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./contact.css"
+import "./contact.css";
+import emailjs from 'emailjs-com';
 
 function ContactForm() {
 
@@ -12,6 +13,16 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+
+        emailjs.sendForm('service_jr7kpfc', 'template_cwc9efd', e.target, 'user_mJoVBCQMEgdqUJCOzKkkW')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      setErrorMessage('Your message has been sent to Aaron!');
+     
       }
 
     function handleChange(e) {
@@ -43,22 +54,22 @@ return (
         <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
         <div>
             <label htmlFor="name" className="name">Name:</label>
-            <input type="text" name="name" className="text-name" defaultValue={name} onBlur={handleChange} />
+            <input type="text" name="name" className="text-name" placeholder="Your Name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
             <label htmlFor="email" className="email">Email:</label>
-            <input type="email" name="email" className="text-email" defaultValue={email} onBlur={handleChange} />
+            <input type="email" name="email" className="text-email" placeholder="Your Email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
             <label htmlFor="message" className="message">Message:</label>
-            <textarea name="message" className="text-message" rows="5" defaultValue={message} onBlur={handleChange} />
+            <textarea name="message" className="text-message" rows="10" placeholder="Your Message" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
             <div>
                 <p className="error-text">{errorMessage}</p>
             </div>
             )}
-        <button type="submit" className="submit-button">Submit</button>
+        <button type="submit" className="submit-button" value="Send Message">Submit</button>
         </form>
     </section>
     );
