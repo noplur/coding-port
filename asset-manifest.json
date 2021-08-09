@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/coding-port/static/css/main.3674be5c.chunk.css",
-    "main.js": "/coding-port/static/js/main.4403a624.chunk.js",
-    "main.js.map": "/coding-port/static/js/main.4403a624.chunk.js.map",
-    "runtime-main.js": "/coding-port/static/js/runtime-main.ac8103c3.js",
-    "runtime-main.js.map": "/coding-port/static/js/runtime-main.ac8103c3.js.map",
+    "main.js": "/coding-port/static/js/main.6c387475.chunk.js",
+    "main.js.map": "/coding-port/static/js/main.6c387475.chunk.js.map",
+    "runtime-main.js": "/coding-port/static/js/runtime-main.4a804884.js",
+    "runtime-main.js.map": "/coding-port/static/js/runtime-main.4a804884.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/coding-port/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.509dd7b5.chunk.js": "/coding-port/static/js/2.509dd7b5.chunk.js",
-    "static/js/2.509dd7b5.chunk.js.map": "/coding-port/static/js/2.509dd7b5.chunk.js.map",
-    "static/js/3.8cdb633c.chunk.js": "/coding-port/static/js/3.8cdb633c.chunk.js",
-    "static/js/3.8cdb633c.chunk.js.map": "/coding-port/static/js/3.8cdb633c.chunk.js.map",
+    "static/js/2.da8f72d0.chunk.js": "/coding-port/static/js/2.da8f72d0.chunk.js",
+    "static/js/2.da8f72d0.chunk.js.map": "/coding-port/static/js/2.da8f72d0.chunk.js.map",
+    "static/js/3.a87947ca.chunk.js": "/coding-port/static/js/3.a87947ca.chunk.js",
+    "static/js/3.a87947ca.chunk.js.map": "/coding-port/static/js/3.a87947ca.chunk.js.map",
     "index.html": "/coding-port/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/coding-port/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.3674be5c.chunk.css.map": "/coding-port/static/css/main.3674be5c.chunk.css.map",
-    "static/js/2.509dd7b5.chunk.js.LICENSE.txt": "/coding-port/static/js/2.509dd7b5.chunk.js.LICENSE.txt",
+    "static/js/2.da8f72d0.chunk.js.LICENSE.txt": "/coding-port/static/js/2.da8f72d0.chunk.js.LICENSE.txt",
     "static/media/0.jpg": "/coding-port/static/media/0.8e46861c.jpg",
     "static/media/1.jpg": "/coding-port/static/media/1.eb35459f.jpg",
     "static/media/2.jpg": "/coding-port/static/media/2.30b58b83.jpg",
@@ -25,10 +25,10 @@
     "static/media/resume_rosenblatt.a9d182d6.pdf": "/coding-port/static/media/resume_rosenblatt.a9d182d6.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac8103c3.js",
+    "static/js/runtime-main.4a804884.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.509dd7b5.chunk.js",
+    "static/js/2.da8f72d0.chunk.js",
     "static/css/main.3674be5c.chunk.css",
-    "static/js/main.4403a624.chunk.js"
+    "static/js/main.6c387475.chunk.js"
   ]
 }
