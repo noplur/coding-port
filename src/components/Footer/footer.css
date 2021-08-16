@@ -38,12 +38,10 @@ a:hover {
 .icon{
     font-size: 40px;
     text-decoration: none;
-    color: rgba(255, 255, 0, 0.7);
+    color: rgba(2251,153,2, 0.9);
     transform-origin: center;
     list-style-type: none;
-    cursor: pointer;
-    
-    
+    cursor: pointer;   
 }
 .icon:hover{
     font-size: 40px;
@@ -57,4 +55,81 @@ a:hover {
 }
 body {
     background-color: var(--primary-color);
+}
+@media only screen and (max-width: 2310px) {
+    .footer {
+        padding-left: 45%;
+    
+    }
+  }
+@media only screen and (max-width: 1980px) {
+    .footer {
+        padding-left: 43%;
+
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .footer {
+        padding-left: 41%;
+
+    }
+}
+@media only screen and (max-width: 1350px) {
+    .footer {
+        padding-left: 38%;
+
+    }
+}
+@media only screen and (max-width: 1175px) {
+    .footer {
+        padding-left: 35%;
+
+    }
+}
+@media only screen and (max-width: 950px) {
+    .footer {
+        padding-left: 32%;
+
+    }
+}
+@media only screen and (max-width: 875px) {
+    .footer {
+        padding-left: 29%;
+
+    }
+}
+@media only screen and (max-width: 735px) {
+    .footer {
+        padding-left: 25%;
+
+    }
+}
+@media only screen and (max-width: 683px) {
+    .footer {
+        padding-left: 20%;
+
+    }
+}
+@media only screen and (max-width: 683px) {
+    .footer {
+        padding-left: 19%;
+
+    }
+}
+
+@media only screen and (max-width: 559px) {
+    .footer {
+        padding-left: 14%;
+
+    }
+}
+@media only screen and (max-width: 532px) {
+    .icon {
+        font-size: 28px;
+
+    }
+    .icon:hover {
+        font-size: 28px;
+
+    }
 }

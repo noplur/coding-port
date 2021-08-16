@@ -27,3 +27,40 @@
     margin-left: 35%;
     height: 350px;
 }
+@media only screen and (max-width: 1036px) {
+    .abouttext {
+        margin-top: -31%;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 776px) {
+    .abouttext {
+        margin-top: -32%;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 706px) {
+    .abouttext {
+        margin-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 653px) {
+    .abouttext {
+        margin-bottom: 15%;
+    }
+}
+@media only screen and (max-width: 618px) {
+    .abouttext {
+        margin-bottom: 25%;
+    }
+}
+@media only screen and (max-width: 551px) {
+    .abouttext {
+        margin-bottom: 35%;
+    }
+}
+@media only screen and (max-width: 551px) {
+    .abouttext {
+        margin-bottom: 55%;
+    }
+}

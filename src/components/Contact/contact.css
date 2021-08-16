@@ -60,7 +60,7 @@
 .error-text {
     margin-top: 2%;
     font-size: 24px;
-    color: rgba(255, 255, 0, 0.7);
+    color: rgba(2251,153,2, 0.9);
 }
 .submit-button {
     margin-top: 1%;
@@ -73,7 +73,7 @@
 }
 .submit-button:hover {
     margin-top: 1%;
-    background-color: rgba(255, 255, 0, 0.7);
+    background-color: rgba(2251,153,2, 0.9);
     color: var(--primary-color);
     font-size: 24px;
     border-color: var(--secondary-color);

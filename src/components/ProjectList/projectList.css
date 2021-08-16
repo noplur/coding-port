@@ -5,39 +5,39 @@
   }
 .csstest:hover {
     background-color: white;
-    opacity: 0.75;
+    opacity: 0.95;
     text-decoration: none;
     transition: all .7s ease-in-out;
+    height: 100%;
   }
+
 .links {
     opacity: 0;
+    height: 80%;
 }
 .links:hover {
     opacity: 1;
 }
 .box {
-    height: 300px;
+    height: 340px;
     margin-bottom: 20px;
     margin-left: 20px;
     -webkit-box-shadow: 0px 12px 18px -6px rgba (0,0,0,0.3);
     box-shadow: 0px 12px 18px -6px rgba (0,0,0,0.3);
 }
 .grid {
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 15%;
     padding-left: 20px;
-    padding-right: 20px;
-    
+    padding-right: 20px; 
 }
 .grid > div {
     flex-basis: calc(50% - 40px)
 }
-.projectlink {
-    margin-top: -10%;
-    margin-left: 5%;
+.projecttitle {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: black;
@@ -45,22 +45,30 @@
     font-size: 32px;
     list-style: none;
     text-shadow: none;
-}
-.projectlink:hover {
-    color: var(--tertiary-color);
+    text-align: center;
 }
 .projectdescription{
-    margin-top: -7%;
-    margin-left: 5%;
     font-family: Geneva, Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: black;
     font-display: bold;
-    font-size: 24px;
+    font-size: 14px;
     text-shadow: none;
     list-style: none;
+    text-align: center;
 }
-.githubcard {
+.projectcomponent{
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-display: bold;
+    font-size: 20px;
+    text-shadow: none;
+    list-style: none;
+    text-align: center;
+    color: rgba(251,153,2);
+}
+/* .githubcard {
     margin-top: -10%;
     margin-left: 15%;
     font-size: 38px;
@@ -71,7 +79,977 @@
 }
 .githubcard:hover {
     color: var(--tertiary-color);
+} */
+a {
+    text-decoration: none;
+    display: inherit;
+    cursor: pointer;
 }
 a:hover {
     text-decoration: none;
+    display: inherit;
+    cursor: pointer;
+}
+.appbtn {
+    background-color: rgba(251,153,2);
+    width: auto;
+    display: block;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    z-index: 1;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px; 
+    font-size: 18px;
+    margin-left: 20%;
+} 
+
+.appbtn:hover {
+    background-color: #000000;
+    width: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    z-index: 1;
+    border-color: var(--tertiary-color);
+    border-radius: 10px;
+    border-width: 2px;   
+    font-size: 18px; 
+    margin-left: 20%;  
+}
+.appbtn:focus,.appbtn:active {
+    outline: none !important;
+    box-shadow: none;
+    background-color: rgba(251,153,2);
+    color: #000000;
+    border-color: black;
+}
+ 
+.codebtn {
+    background-color: rgba(251,153,2);
+    width: auto;
+    display: block;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    z-index: 1;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;   
+    font-size: 18px;   
+    margin-left: 50%;
+    margin-top: -18%;
+} 
+.codebtn:hover {
+    background-color: #000000;
+    width: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    z-index: 1;
+    border-color: var(--tertiary-color);
+    border-radius: 10px;
+    border-width: 2px;   
+    font-size: 18px;   
+    margin-left: 50%;
+    margin-top: -18%;
+}
+.codebtn:focus,.codebtn:active {
+    outline: none !important;
+    box-shadow: none;
+    background-color: rgba(251,153,2);
+    color: #000000;
+    border-color: black;
+}
+@media only screen and (max-width: 2310px) {
+    .box {
+        height: 400px;
+    }
+    .appbtn {
+        margin-left: 30%;
+    }
+    .appbtn:hover {
+        margin-left: 30%;
+    }
+    .codebtn {
+      margin-top: -12%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -12%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 2200px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -13%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -13%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 2100px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -14%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -14%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 2000px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -15%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -15%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 1800px) {
+    .appbtn {
+        margin-left: 15%;
+    }
+    .appbtn:hover {
+        margin-left: 15%;
+    }
+    .codebtn {
+      margin-top: -17%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -17%;
+        margin-left: 55%;
+      }
+  }
+  @media only screen and (max-width: 1900px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 15%;
+    }
+    .codebtn {
+      margin-top: -16%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -16%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 1784px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -18%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -18%;
+        margin-left: 55%;
+      }
+  }
+  @media only screen and (max-width: 1640px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -19%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -19%;
+        margin-left: 55%;
+      }
+  }
+@media only screen and (max-width: 1600px) {
+    .appbtn {
+        margin-left: 25%;
+    }
+    .appbtn:hover {
+        margin-left: 25%;
+    }
+    .codebtn {
+      margin-top: -20%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -20%;
+        margin-left: 55%;
+      }
+  }
+  @media only screen and (max-width: 1515px) {
+    .appbtn {
+        margin-left: 23%;
+    }
+    .appbtn:hover {
+        margin-left: 23%;
+    }
+    .codebtn {
+      margin-top: -21%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -21%;
+        margin-left: 55%;
+    }
+  }
+
+@media only screen and (max-width: 1445px) {
+    .appbtn {
+        margin-left: 15%;
+    }
+    .appbtn:hover {
+        margin-left: 15%;
+    }
+    .codebtn {
+      margin-top: -23%;
+      margin-left: 55%;
+    }
+    .codebtn:hover {
+        margin-top: -23%;
+        margin-left: 55%;
+      }
+  }
+  @media only screen and (max-width: 1370px) {
+    .appbtn {
+        font-size: 16px;  
+        margin-left: 15%;
+    }
+    .appbtn:hover {
+        font-size: 16px;  
+        margin-left: 15%;
+    }
+    .codebtn {
+        margin-top: -24%;
+        margin-left: 55%;
+        font-size: 16px;  
+    }
+    .codebtn:hover {
+        margin-top: -24%;
+        margin-left: 55%;
+        font-size: 16px;  
+    }
+}
+@media only screen and (max-width: 1305px) {
+    .appbtn {
+        font-size: 16px;  
+        margin-left: 15%;
+    }
+    .appbtn:hover {
+        font-size: 16px;  
+        margin-left: 15%;
+    }
+    .codebtn {
+        margin-top: -26%;
+        margin-left: 55%;
+        font-size: 16px;  
+    }
+    .codebtn:hover {
+        margin-top: -26%;
+        margin-left: 55%;
+        font-size: 16px;  
+    }
+}
+
+@media only screen and (max-width: 1225px) {
+    .appbtn {
+        font-size: 15px;  
+    }
+    .appbtn:hover {
+        font-size: 15px;  
+    }
+    .codebtn {
+        margin-top: -27%;
+        margin-left: 55%;
+        font-size: 15px;  
+    }
+    .codebtn:hover {
+        margin-top: -27%;
+        margin-left: 55%;
+        font-size: 15px;  
+    }
+}
+@media only screen and (max-width: 1170px) {
+    .projecttitle {
+        font-size: 24px;
+    }
+    .projectcomponent{
+        font-size: 14px;
+    }
+    .appbtn {
+        font-size: 14px;  
+    }
+    .appbtn:hover {
+        font-size: 14px;  
+    }
+    .codebtn {
+        margin-top: -29%;
+        margin-left: 55%;
+        font-size: 14px;  
+    }
+    .codebtn:hover {
+        margin-top: -29%;
+        margin-left: 55%;
+        font-size: 14px;  
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .appbtn {
+        font-size: 13px;  
+    }
+    .appbtn:hover {
+        font-size: 13px;  
+    }
+    .codebtn {
+        margin-top: -30%;
+        margin-left: 55%;
+        font-size: 13px;  
+    }
+    .codebtn:hover {
+        margin-top: -30%;
+        margin-left: 55%;
+        font-size: 13px;  
+    }
+}
+@media only screen and (max-width: 1070px) {
+    .appbtn {
+        font-size: 12px;  
+    }
+    .appbtn:hover {
+        font-size: 12px;  
+    }
+    .codebtn {
+        margin-top: -31%;
+        margin-left: 55%;
+        font-size: 12px;  
+    }
+    .codebtn:hover {
+        margin-top: -31%;
+        margin-left: 55%;
+        font-size: 12px;  
+    }
+}
+@media only screen and (max-width: 1042px) {
+    .appbtn {
+        font-size: 11px;  
+        margin-left: 7%;
+    }
+    .appbtn:hover {
+        font-size: 11px;  
+        margin-left: 7%;
+    }
+    .codebtn {
+        margin-top: -32%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        margin-top: -32%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .appbtn {
+        font-size: 11px;  
+        margin-left: 7%;
+    }
+    .appbtn:hover {
+        font-size: 11px;  
+        margin-left: 7%;
+    }
+    .codebtn {
+        margin-top: -32%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        margin-top: -32%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+
+@media only screen and (max-width: 1006px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 7%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 7%;   
+    }
+    .codebtn {
+        width: 50%;
+        margin-top: -34%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 50%;
+        margin-top: -34%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 968px) {
+    .projecttitle {
+        font-size: 20px;
+    }
+    .codebtn {
+        width: 50%;
+        margin-top: -37%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 50%;
+        margin-top: -37%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 929px) {
+    .appbtn {
+        margin-left: 3%;   
+    }
+    .appbtn:hover {
+        margin-left: 3%;   
+    }
+    .codebtn {
+        width: 55%;
+        margin-top: -38%;
+        margin-left: 53%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 55%;
+        margin-top: -38%;
+        margin-left: 53%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 908px) {
+    .projectdescription{
+        font-size: 10px;
+    }
+    .projectcomponent{
+        font-size: 10px;
+    }
+    .appbtn {
+        margin-left: 1%;   
+    }
+    .appbtn:hover {
+        margin-left: 1%;   
+    }
+    .codebtn {
+        width: 55%;
+        margin-top: -40%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 55%;
+        margin-top: -40%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 889px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 0%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 0%;   
+    }
+    .codebtn {
+        width: 60%;
+        margin-top: -42%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 60%;
+        margin-top: -42%;
+        margin-left: 55%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 863px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -7%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -7%;   
+    }
+    .codebtn {
+        width: 65%;
+        margin-top: -46%;
+        margin-left: 53%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 65%;
+        margin-top: -46%;
+        margin-left: 53%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 824px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -10%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -10%;   
+    }
+    .codebtn {
+        width: 70%;
+        margin-top: -48%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 70%;
+        margin-top: -48%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 793px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -15%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -15%;   
+    }
+    .codebtn {
+        width: 75%;
+        margin-top: -53%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 75%;
+        margin-top: -53%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 760px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -20%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -20%;   
+    }
+    .codebtn {
+        width: 80%;
+        margin-top: -57%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 80%;
+        margin-top: -57%;
+        margin-left: 50%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 730px) {
+    .projecttitle {
+        font-size: 14px;
+    }
+    .projectdescription{
+        font-size: 10px;
+    }
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -25%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -25%;   
+    }
+    .codebtn {
+        width: 85%;
+        margin-top: -60%;
+        margin-left: 45%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 85%;
+        margin-top: -60%;
+        margin-left: 45%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 725px) {
+    .projectdescription{
+        font-size: 8px;
+    }
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 15%;
+        margin-top: -30%;   
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 15%;
+        margin-top: -30%;   
+    }
+    .codebtn {
+        width: 100%;
+        margin-top: -30%;
+        margin-left: 5%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 100%;
+        margin-top: -30%;
+        margin-left: 5%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 663px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -30%; 
+        width: 100%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -30%; 
+        width: 100%;  
+    }
+    .codebtn {
+        width: 110%;
+        margin-top: -30%;
+        margin-left: 0%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 110%;
+        margin-top: -30%;
+        margin-left: 0%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 639px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -30%; 
+        width: 100%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -30%; 
+        width: 100%;  
+    }
+    .codebtn {
+        width: 120%;
+        margin-top: -35%;
+        margin-left: -5%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 120%;
+        margin-top: -35%;
+        margin-left: -5%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 619px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 110%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 110%;  
+    }
+    .codebtn {
+        width: 130%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 130%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 602px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 110%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 110%;  
+    }
+    .codebtn {
+        width: 140%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 140%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 598px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 120%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: 5%;
+        margin-top: -35%; 
+        width: 120%;  
+    }
+    .codebtn {
+        width: 150%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 150%;
+        margin-top: -40%;
+        margin-left: -10%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 588px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -15%;
+        margin-top: -35%; 
+        width: 140%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -15%;
+        margin-top: -35%; 
+        width: 140%;  
+    }
+    .codebtn {
+        width: 170%;
+        margin-top: -50%;
+        margin-left: -30%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 170%;
+        margin-top: -50%;
+        margin-left: -30%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 558px) {
+    .appbtn {
+        font-size: 11px; 
+        margin-left: -15%;
+        margin-top: -35%; 
+        width: 150%;  
+    }
+    .appbtn:hover {
+        font-size: 11px; 
+        margin-left: -15%;
+        margin-top: -35%; 
+        width: 150%;  
+    }
+    .codebtn {
+        width: 180%;
+        margin-top: -60%;
+        margin-left: -30%;
+        font-size: 11px;  
+    }
+    .codebtn:hover {
+        width: 180%;
+        margin-top: -60%;
+        margin-left: -30%;
+        font-size: 11px;  
+    }
+}
+@media only screen and (max-width: 546px) {
+    .projecttitle {
+        font-size: 8px;
+    }
+    .appbtn {
+        font-size: 10px; 
+    }
+    .appbtn:hover {
+        font-size: 10px; 
+    }
+    .codebtn {
+        font-size: 10px; 
+    }
+    .codebtn:hover {
+        font-size: 10px; 
+    }
+}
+@media only screen and (max-width: 536px) {
+    .appbtn {
+        width: 160%;  
+    }
+    .appbtn:hover {
+        width: 160%;  
+    }
+    .codebtn {
+        width: 190%; 
+        margin-top: -70%;
+    }
+    .codebtn:hover {
+        width: 190%; 
+        margin-top: -70%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .appbtn {
+        width: 180%;  
+        margin-left: -35%;
+    }
+    .appbtn:hover {
+        width: 180%;  
+        margin-left: -35%;
+    }
+    .codebtn {
+        width: 210%; 
+        margin-top: -80%;
+        margin-left: -55%;
+    }
+    .codebtn:hover {
+        width: 210%; 
+        margin-top: -80%;
+        margin-left: -55%;
+    }
+}
+@media only screen and (max-width: 516px) {
+    .appbtn {
+        width: 200%;  
+        margin-left: -40%;
+        margin-top: -100%;
+    }
+    .appbtn:hover {
+        width: 200%;  
+        margin-left: -40%;
+        margin-top: -100%;
+    }
+    .codebtn {
+        width: 230%; 
+        margin-top: -110%;
+        margin-left: -55%;
+    }
+    .codebtn:hover {
+        width: 230%; 
+        margin-top: -110%;
+        margin-left: -55%;
+    }
+}
+@media only screen and (max-width: 504px) {
+    .appbtn {
+        width: 220%;  
+        margin-left: -50%;
+    }
+    .appbtn:hover {
+        width: 220%;  
+        margin-left: -50%;
+    }
+    .codebtn {
+        width: 250%; 
+        margin-top: -110%;
+        margin-left: -65%;
+    }
+    .codebtn:hover {
+        width: 250%; 
+        margin-top: -110%;
+        margin-left: -65%;
+    }
+}
+@media only screen and (max-width: 492px) {
+    .appbtn {
+        width: 240%;  
+        margin-left: -55%;
+    }
+    .appbtn:hover {
+        width: 240%;  
+        margin-left: -55%;
+    }
+    .codebtn {
+        width: 270%; 
+        margin-top: -110%;
+        margin-left: -65%;
+    }
+    .codebtn:hover {
+        width: 270%; 
+        margin-top: -110%;
+        margin-left: -65%;
+    }
 }
