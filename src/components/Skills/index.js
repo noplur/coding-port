@@ -1,7 +1,7 @@
 import React from 'react';
-import pdf from "../../assets/images/resume/resume_rosenblatt.pdf"
+// import pdf from "../../assets/images/resume/resume_rosenblatt.pdf"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./resume.css";
+import "./skills.css";
 import { DiHtml5, DiCss3, DiJavascript1, DiJqueryLogo, DiReact, DiMongodb, DiMysql, DiNodejsSmall, DiGit, DiAws, DiBootstrap, DiGithub, DiVisualstudio, DiNpm } from "react-icons/di";
 import { GrGraphQl, GrHeroku } from "react-icons/gr"; 
 import { SiSlack, SiJest } from "react-icons/si";
@@ -10,10 +10,6 @@ import { Container, Row, Col } from "react-bootstrap";
 function Resume() {
     return (
         <section>
-                <h1 id="resume" className="resume">Resume</h1>
-                <h2 className="download">
-                Download my <a href = {pdf} target = "_blank" className="resume-link">Resume</a>
-                </h2>
                 <h3 className="frontend">Skills</h3>
                 <Container>
                 <Row className="row">

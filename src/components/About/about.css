@@ -3,7 +3,7 @@
     --secondary-color: #ffffff;
     --tertiary-color: #808080;
   }
-  .about {
+.about {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-display: bold;
     font-size: 38px;
@@ -27,16 +27,392 @@
     margin-left: 35%;
     height: 350px;
 }
+.resumetext {
+    color: var(--secondary-color);
+    width: 50%;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -10%;
+    margin-left: 35%;
+}
+.resumelink {
+    color: var(--tertiary-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    margin-top: -7%;
+    margin-left: 16%;
+}
+.resumelink:hover {
+    color:  rgba(251,153,2, 0.9);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    margin-top: -7%;
+    margin-left: 16%;
+}
+.emailtext {
+    color: var(--secondary-color);
+    width: 50%;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: 35%;
+    padding-bottom: 5%;
+}
+.emaillink {
+    color: var(--tertiary-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 23px;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    margin-top: -7%;
+    margin-left: 18%;
+}
+.emaillink:hover {
+    color:  rgba(251,153,2, 0.9);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 23px;
+    display: center;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    margin-top: -7%;
+    margin-left: 18%;
+}
+@media only screen and (max-width: 2310px) {
+    .resumetext {
+        margin-top: -3%;
+        margin-left: 35%;
+    }
+    .resumelink {
+        margin-top: -5%;
+        margin-left: 11%;
+        font-size: 27px;
+    }
+    .resumelink:hover {
+        margin-top: -5%;
+        margin-left: 11%;
+        font-size: 27px;
+    }
+    .emailtext {
+        margin-top: 1%;
+    }
+    .emaillink {
+        margin-top: -5%;
+        margin-left: 12%;
+        font-size: 25px;
+    }
+    .emaillink:hover {
+        margin-top: -5%;
+        margin-left: 12%;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 2100px) {
+    .resumelink {
+        margin-left: 12%;
+        font-size: 25px;
+    }
+    .resumelink:hover {
+        margin-left: 12%;
+        font-size: 25px;
+    }
+    .emaillink {
+        margin-top: -5%;
+        margin-left: 13%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -5%;
+        margin-left: 13%;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 2000px) {
+    .resumelink {
+        margin-top: -6%;
+        margin-left: 13%;
+        font-size: 27px;
+    }
+    .resumelink:hover {
+        margin-top: -6%;
+        margin-left: 13%;
+        font-size: 27px;
+    }
+    .emaillink {
+        margin-top: -6%;
+        margin-left: 14%;
+        font-size: 26px;
+    }
+    .emaillink:hover {
+        margin-top: -6%;
+        margin-left: 14%;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1836px) {
+    .resumelink {
+        margin-top: -6%;
+        margin-left: 14%;
+        font-size: 27px;
+    }
+    .resumelink:hover {
+        margin-top: -6%;
+        margin-left: 14%;
+        font-size: 27px;
+    }
+    .emaillink {
+        margin-top: -6%;
+        margin-left: 15%;
+        font-size: 26px;
+    }
+    .emaillink:hover {
+        margin-top: -6%;
+        margin-left: 15%;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1732px) {
+    .resumelink {
+        margin-top: -7%;
+        margin-left: 15%;
+        font-size: 27px;
+    }
+    .resumelink:hover {
+        margin-top: -7%;
+        margin-left: 15%;
+        font-size: 27px;
+    }
+    .emaillink {
+        margin-top: -7%;
+        margin-left: 16%;
+        font-size: 26px;
+    }
+    .emaillink:hover {
+        margin-top: -7%;
+        margin-left: 16%;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .resumelink {
+        margin-top: -7%;
+        margin-left: 16%;
+        font-size: 27px;
+    }
+    .resumelink:hover {
+        margin-top: -7%;
+        margin-left: 16%;
+        font-size: 27px;
+    }
+    .emaillink {
+        margin-top: -7%;
+        margin-left: 17%;
+        font-size: 26px;
+    }
+    .emaillink:hover {
+        margin-top: -7%;
+        margin-left: 17%;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .resumelink {
+        margin-top: -8%;
+        margin-left: 17%;
+        font-size: 26px;
+    }
+    .resumelink:hover {
+        margin-top: -8%;
+        margin-left: 17%;
+        font-size: 26px;
+    }
+    .emaillink {
+        margin-top: -8%;
+        margin-left: 19%;
+        font-size: 25px;
+    }
+    .emaillink:hover {
+        margin-top: -8%;
+        margin-left: 19%;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    .resumelink {
+        margin-top: -8%;
+        margin-left: 19%;
+        font-size: 24px;
+    }
+    .resumelink:hover {
+        margin-top: -8%;
+        margin-left: 19%;
+        font-size: 24px;
+    }
+    .emaillink {
+        margin-top: -9%;
+        margin-left: 21%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -9%;
+        margin-left: 21%;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1240px) {
+    .resumelink {
+        margin-top: -9%;
+        margin-left: 21%;
+        font-size: 24px;
+    }
+    .resumelink:hover {
+        margin-top: -9%;
+        margin-left: 21%;
+        font-size: 24px;
+    }
+    .emaillink {
+        margin-top: -10%;
+        margin-left: 23%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -10%;
+        margin-left: 23%;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1115px) {
+    .resumetext {
+        margin-left: 10%;
+    }
+    .resumelink {
+        margin-top: -10%;
+        margin-left: 23%;
+        font-size: 23px;
+    }
+    .resumelink:hover {
+        margin-top: -10%;
+        margin-left: 23%;
+        font-size: 23px;
+    }
+    .emailtext {
+        margin-left: 10%;
+    }
+    .emaillink {
+        margin-top: -11%;
+        margin-left: 25%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -11%;
+        margin-left: 25%;
+        font-size: 24px;
+    }
+}
 @media only screen and (max-width: 1036px) {
     .abouttext {
         margin-top: -31%;
         margin-bottom: 5%;
+    }
+    .resumelink {
+        margin-top: -10%;
+        margin-left: 25%;
+        font-size: 23px;
+    }
+    .resumelink:hover {
+        margin-top: -10%;
+        margin-left: 25%;
+        font-size: 23px;
+    }
+    .emaillink {
+        margin-top: -11%;
+        margin-left: 27%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -11%;
+        margin-left: 27%;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 944px) {
+    .resumelink {
+        margin-top: -11%;
+        margin-left: 27%;
+        font-size: 23px;
+    }
+    .resumelink:hover {
+        margin-top: -11%;
+        margin-left: 27%;
+        font-size: 23px;
+    }
+    .emaillink {
+        margin-top: -12%;
+        margin-left: 30%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -12%;
+        margin-left: 30%;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 865px) {
+    .resumelink {
+        margin-top: -12%;
+        margin-left: 30%;
+        font-size: 23px;
+    }
+    .resumelink:hover {
+        margin-top: -12%;
+        margin-left: 30%;
+        font-size: 23px;
+    }
+    .emaillink {
+        margin-top: -13%;
+        margin-left: 33%;
+        font-size: 24px;
+    }
+    .emaillink:hover {
+        margin-top: -13%;
+        margin-left: 33%;
+        font-size: 24px;
     }
 }
 @media only screen and (max-width: 776px) {
     .abouttext {
         margin-top: -32%;
         margin-bottom: 5%;
+    }
+    .resumelink {
+        margin-top: -6%;
+        margin-left: 0%;
+        font-size: 23px;
+    }
+    .resumelink:hover {
+        margin-top: -6%;
+        margin-left: 0%;
+        font-size: 23px;
+    }
+    .emaillink {
+        margin-top: -6%;
+        margin-left: 0%;
+        font-size: 16px;
+    }
+    .emaillink:hover {
+        margin-top: -6%;
+        margin-left: 0%;
+        font-size: 16px;
     }
 }
 @media only screen and (max-width: 706px) {
@@ -53,14 +429,19 @@
     .abouttext {
         margin-bottom: 25%;
     }
-}
-@media only screen and (max-width: 551px) {
-    .abouttext {
-        margin-bottom: 35%;
+    .resumetext {
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    .resumelink {
+        font-size: 20px;
+    }
+    .resumelink:hover {
+        font-size: 20px;
     }
 }
-@media only screen and (max-width: 551px) {
+@media only screen and (max-width: 595px) {
     .abouttext {
-        margin-bottom: 55%;
+        margin-bottom: 35%;
     }
 }

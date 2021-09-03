@@ -166,7 +166,7 @@ a:hover {
 }
 @media only screen and (max-width: 2310px) {
     .box {
-        height: 400px;
+        height: 600px;
     }
     .appbtn {
         margin-left: 30%;
@@ -184,6 +184,9 @@ a:hover {
       }
   }
 @media only screen and (max-width: 2200px) {
+    .box {
+        height: 500px;
+    }
     .appbtn {
         margin-left: 25%;
     }
@@ -200,6 +203,9 @@ a:hover {
       }
   }
 @media only screen and (max-width: 2100px) {
+    .box {
+        height: 450px;
+    }
     .appbtn {
         margin-left: 25%;
     }
@@ -345,6 +351,9 @@ a:hover {
       }
   }
   @media only screen and (max-width: 1370px) {
+    .box {
+        height: 350px;
+    }
     .appbtn {
         font-size: 16px;  
         margin-left: 15%;

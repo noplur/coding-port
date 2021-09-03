@@ -5,7 +5,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Project from './components/Project';
 import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+import Skills from './components/Skills';
 
 function App() {
   const [currentCategoryTwo, setCurrentCategoryTwo] = useState({
@@ -33,10 +33,10 @@ function App() {
         component: <ContactForm></ContactForm>
     },
     {
-      name: "resume",
+      name: "skills",
         description:
-          "Aaron's Resume",
-        component: <Resume></Resume>
+          "Aaron's Skills",
+        component: <Skills></Skills>
     }
   ]);
 

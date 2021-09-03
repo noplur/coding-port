@@ -3,47 +3,6 @@
     --secondary-color: #ffffff;
     --tertiary-color: #808080;
   }
-
-  .resume {
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    font-display: bold;
-    font-size: 38px;
-    color:  rgba(251,153,2, 0.9);
-    margin-left: 12%;
-    margin-top: 2%;
-    text-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
-}
-.download {
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    color: var(--secondary-color);
-    font-size: 28px;
-    margin-left: 12%;
-    margin-top: 2%;
-    
-}
-.resume-link {
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    font-size: 32px;
-    margin-left: 13%;
-    margin-top: -4%;
-    color: var(--tertiary-color);
-    width: 20%;
-    height: 1%;
-    cursor: pointer;
-}
-.resume-link:hover {
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    font-size: 32px;
-    margin-left: 13%;
-    margin-top: -4%;
-    color:  rgba(251,153,2, 0.9);
-    list-style-type: none;
-    width: 20%;
-    height: 1%;
-    cursor: pointer;
-}
 .frontend {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     color:  rgba(251,153,2, 0.9);

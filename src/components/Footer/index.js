@@ -22,6 +22,11 @@ function Footer() {
                     <i className="fab fa-twitter-square"></i>
                     </a>
             </li>
+            <li className="footerlink">
+                <a href = "mailto: aaronrosenblattphoto@gmail.com" target="_blank" className="icon">
+                    <i className="fas fa-envelope-square"></i>
+                    </a>
+            </li>
             </ul>
             </section>
         </footer>

@@ -71,6 +71,11 @@ return (
             )}
         <button type="submit" className="submit-button" value="Send Message">Submit</button>
         </form>
+        <div>
+        <p class="emailcontacttext">
+                ... Or e-mail Aaron: <a href = "mailto: aaronrosenblattphoto@gmail.com" target="_blank" className="emailcontactlink">aaronrosenblattphoto@gmail.com</a>
+            </p>
+        </div>
     </section>
     );
 }

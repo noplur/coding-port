@@ -9,7 +9,7 @@
     list-style-type: none;
     padding: 20px 30px;
     padding-left: 40%;
-
+    margin-left: -6%;
 }
 .footerlink {
     display: inline;
@@ -19,7 +19,6 @@
     float: none;
     margin: 0 30px;
     justify-content: center;
-   
 }
 a {
     text-decoration: none;
@@ -49,9 +48,6 @@ a:hover {
     color: var(--tertiary-color);
     transform-origin: center;
     list-style-type: none;
-    
-    
-    
 }
 body {
     background-color: var(--primary-color);
@@ -59,7 +55,12 @@ body {
 @media only screen and (max-width: 2310px) {
     .footer {
         padding-left: 45%;
-    
+        margin-left: -2%;
+    }
+  }
+  @media only screen and (max-width: 2100px) {
+    .footer {
+        margin-left: -3%;
     }
   }
 @media only screen and (max-width: 1980px) {
@@ -68,10 +69,15 @@ body {
 
     }
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1750px) {
     .footer {
         padding-left: 41%;
-
+        margin-left: -4%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .footer {
+        padding-left: 39%;
     }
 }
 @media only screen and (max-width: 1350px) {
@@ -89,7 +95,7 @@ body {
 @media only screen and (max-width: 950px) {
     .footer {
         padding-left: 32%;
-
+        margin-left: -6%;
     }
 }
 @media only screen and (max-width: 875px) {
@@ -98,38 +104,50 @@ body {
 
     }
 }
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 745px) {
     .footer {
         padding-left: 25%;
-
+        margin-left: -8%;
     }
 }
-@media only screen and (max-width: 683px) {
+@media only screen and (max-width: 691px) {
     .footer {
         padding-left: 20%;
-
+        margin-left: -3%;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    .icon:hover {
+        font-size: 30px;
     }
 }
-@media only screen and (max-width: 683px) {
+@media only screen and (max-width: 647px) {
     .footer {
-        padding-left: 19%;
-
+        padding-left: 7%;
+        margin-left: -3%;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    .icon:hover {
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 559px) {
     .footer {
-        padding-left: 14%;
-
+        padding-left: 3%;
+        margin-left: -3%;
     }
 }
-@media only screen and (max-width: 532px) {
+@media only screen and (max-width: 537px) {
     .icon {
-        font-size: 28px;
+        font-size: 18px;
 
     }
     .icon:hover {
-        font-size: 28px;
+        font-size: 18px;
 
     }
 }

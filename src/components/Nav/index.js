@@ -39,7 +39,7 @@ function Nav(props) {
             setCurrentCategory(categories[3])
             ) }>
 
-              Resume
+              Skills
             </span>
       
           </li>
