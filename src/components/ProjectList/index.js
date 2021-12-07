@@ -7,6 +7,15 @@ const ProjectList = ({ category }) => {
 
   const [photos] = useState([
     {
+      image: require(`../../assets/images/project/rosenblattphotoshop.jpg`).default,
+      name: 'Aaron Rosenblatt Photo Shop',
+      category: 'project',
+      description: "A full stack live shop that allows for a user to signup, login, select photographs and purchase prints through Stripe.",
+      component: 'MongoDB, Express, React, Node, Stripe',
+      projectlink: 'https://rosenblattphotoshop.herokuapp.com/',
+      githublink: 'https://github.com/noplur/aaronrosenblattphoto-shop'
+    },
+    {
       image: require(`../../assets/images/project/0.jpg`).default,
       name: 'Kathryn Hansen Art Portfolio',
       category: 'project',
@@ -58,16 +67,16 @@ const ProjectList = ({ category }) => {
       component: 'JavaScript/jQuery/Bootstrap',
       projectlink: 'https://noplur.github.io/weather-dashboard/',
       githublink: 'https://github.com/noplur/weather-dashboard'
-    },
-    {
-      image: require(`../../assets/images/project/5.jpg`).default,
-      name: 'Google Book Search',
-      category: 'project',
-      description: "A full stack application that uses the Google Books API and allows for a user to search for books, view books, and save or delete them from the database.",
-      component: 'MongoDB, Express, React, Node',
-      projectlink: 'https://blatt-booksearch.herokuapp.com/',
-      githublink: 'https://github.com/noplur/blatt-book-search'
     }
+    // {
+    //   image: require(`../../assets/images/project/5.jpg`).default,
+    //   name: 'Google Book Search',
+    //   category: 'project',
+    //   description: "A full stack application that uses the Google Books API and allows for a user to search for books, view books, and save or delete them from the database.",
+    //   component: 'MongoDB, Express, React, Node',
+    //   projectlink: 'https://blatt-booksearch.herokuapp.com/',
+    //   githublink: 'https://github.com/noplur/blatt-book-search'
+    // }
   ]);
 
   const renderCard = (card, index) => {
