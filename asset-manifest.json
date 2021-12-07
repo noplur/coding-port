@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coding-port/static/css/main.ea2b1c4f.chunk.css",
-    "main.js": "/coding-port/static/js/main.91746d85.chunk.js",
-    "main.js.map": "/coding-port/static/js/main.91746d85.chunk.js.map",
+    "main.js": "/coding-port/static/js/main.2cd1512d.chunk.js",
+    "main.js.map": "/coding-port/static/js/main.2cd1512d.chunk.js.map",
     "runtime-main.js": "/coding-port/static/js/runtime-main.34d6864a.js",
     "runtime-main.js.map": "/coding-port/static/js/runtime-main.34d6864a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/coding-port/static/css/2.4c97ca4f.chunk.css",
@@ -19,16 +19,16 @@
     "static/media/2.jpg": "/coding-port/static/media/2.30b58b83.jpg",
     "static/media/3.jpg": "/coding-port/static/media/3.7b804c20.jpg",
     "static/media/4.jpg": "/coding-port/static/media/4.bbd67ddf.jpg",
-    "static/media/5.jpg": "/coding-port/static/media/5.9fcd6e8d.jpg",
     "static/media/aaron.c2117337.jpg": "/coding-port/static/media/aaron.c2117337.jpg",
     "static/media/nav.css": "/coding-port/static/media/ggbridge.58d6f15b.jpg",
-    "static/media/resume_rosenblatt.368b46fe.pdf": "/coding-port/static/media/resume_rosenblatt.368b46fe.pdf"
+    "static/media/resume_rosenblatt.368b46fe.pdf": "/coding-port/static/media/resume_rosenblatt.368b46fe.pdf",
+    "static/media/rosenblattphotoshop.jpg": "/coding-port/static/media/rosenblattphotoshop.8440d7fc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.34d6864a.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c9402b5a.chunk.js",
     "static/css/main.ea2b1c4f.chunk.css",
-    "static/js/main.91746d85.chunk.js"
+    "static/js/main.2cd1512d.chunk.js"
   ]
 }
